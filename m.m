@@ -1,4 +1,7 @@
-@interface Rainbow ()
+@protocol Colorful
+@end
+
+@interface Rainbow () <Colorful>
 @property (nonatomic, assign) CGFloat brightness;
 @property (nonatomic, assign) CGFloat alpha;
 @end
