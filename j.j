@@ -4,6 +4,7 @@
   CPString city;
   CPString zipcode;
   CPString state;
+  CPString country;
 }
 
 - (id)initWithName:(CPString)aName city:(CPString)aCity
@@ -50,5 +51,16 @@
 {
   return state;
 }
+
+- (void)setCountry:(CPString)aCountry
+{
+  country = aCountry;
+}
+
+- (CPString)country
+{
+  return country;
+}
+
 
 @end

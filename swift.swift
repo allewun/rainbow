@@ -41,5 +41,3 @@ func song() {
     }
   }
 }
-
-song()
